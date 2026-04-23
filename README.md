@@ -21,6 +21,16 @@ AMF1 Data Verification/
 ## Setup
 
 ```bash
+# Create virtual environment
+python -m venv .venv
+
+# Activate (Windows)
+.venv\Scripts\activate
+
+# Activate (Mac/Linux)
+source .venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 

@@ -28,8 +28,8 @@ except ImportError:
     sys.exit(1)
 
 BASE_DIR  = Path(__file__).parent.parent
-INPUT_CSV = BASE_DIR / "reference_document.csv"
-OUTPUT_XL = BASE_DIR / "reference_document_REVIEW.xlsx"
+INPUT_CSV = BASE_DIR / "outputs" / "reference_document.csv"
+OUTPUT_XL = BASE_DIR / "outputs" / "reference_document_REVIEW.xlsx"
 
 # ── Filter columns to include (from Banner1, in display order) ─────────────
 # Maps filter_option value → display header label

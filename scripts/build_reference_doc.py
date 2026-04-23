@@ -34,19 +34,19 @@ BASE_DIR = Path(__file__).parent.parent
 
 FILES = {
     "W1": {
-        "Banner1": BASE_DIR / "Wave1" / "AMF1 Partner Survey_Banner #1 (Count&Percentage) 09162025 v1.xlsx",
-        "Banner2": BASE_DIR / "Wave1" / "AMF1 Partner Survey_Banner #2 (Count&Percentage) 09162025 v1.xlsx",
-        "Banner3": BASE_DIR / "Wave1" / "AMF1 Partner Survey_Banner #3 (Count&Percentage) 09152025 v1 (1).xlsx",
+        "Banner1": BASE_DIR / "data" / "Wave1" / "Banner1.xlsx",
+        "Banner2": BASE_DIR / "data" / "Wave1" / "Banner2.xlsx",
+        "Banner3": BASE_DIR / "data" / "Wave1" / "Banner3.xlsx",
     },
     "W2": {
-        "Banner1": BASE_DIR / "Wave2" / "AMF1 Partner Survey W2 Banner #1 (Count&Percentage) 01232026 FINAL.xlsx",
-        "Banner2": BASE_DIR / "Wave2" / "AMF1 Partner Survey W2 Banner #2 (Count&Percentage) 01232026 FINAL.xlsx",
-        "Banner3": BASE_DIR / "Wave2" / "AMF1 Partner Survey W2 Banner #3 (Count&Percentage) 01232026 FINAL.xlsx",
+        "Banner1": BASE_DIR / "data" / "Wave2" / "Banner1.xlsx",
+        "Banner2": BASE_DIR / "data" / "Wave2" / "Banner2.xlsx",
+        "Banner3": BASE_DIR / "data" / "Wave2" / "Banner3.xlsx",
     },
 }
 
-OUTPUT_CSV   = BASE_DIR / "reference_document.csv"
-AMBIG_REPORT = BASE_DIR / "ambiguities_report.txt"
+OUTPUT_CSV   = BASE_DIR / "outputs" / "reference_document.csv"
+AMBIG_REPORT = BASE_DIR / "outputs" / "ambiguities_report.txt"
 
 # ── In-scope / out-of-scope question filters ───────────────────────────────────
 # Match on the leading question code prefix (case-insensitive)

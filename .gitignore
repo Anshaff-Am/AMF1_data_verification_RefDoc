@@ -1,6 +1,8 @@
 # Large generated outputs — regenerate with scripts/build_reference_doc.py
 outputs/reference_document.csv
 outputs/ambiguities_report.txt
+docs/_7120206c9cb5519c364b65b3a39aeee24303e2-PRD_ AMF1 Partner Survey Dashboard-120226-113551.pdf
+docs/Data Verification - AMF1 Partner Survey Dashboard.pdf
 
 # Python
 __pycache__/
